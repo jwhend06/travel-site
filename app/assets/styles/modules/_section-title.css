@@ -1,5 +1,4 @@
 .section-title {
-<<<<<<< HEAD
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
@@ -25,32 +24,4 @@
       display: inline-block;
     }
   }
-
-=======
-	font-size: 2.55rem;
-	font-weight: 300;
-	text-align: center;
-	
-	@mixin atSmall {
-		font-size: 3.75rem;
-	}
-	
-	strong {
-		font-weight: 500;
-	}
-	
-	&__icon {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: .6rem;
-		
-		@mixin atSmall {
-			margin-right: .5rem;
-			margin-right: 0;
-			margin-bottom: 0;
-			display: inline-block;
-		}
-	}
->>>>>>> our-features
 }
