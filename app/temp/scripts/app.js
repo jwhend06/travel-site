@@ -58,11 +58,16 @@
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
+	var _StickyHeader = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./modules/StickyHeader\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+	var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mobileMenu = new _MobileMenu2.default();
 	new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 	new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
+	var stickyHeader = new _StickyHeader2.default();
 
 /***/ },
 /* 1 */
@@ -10368,8 +10373,8 @@
 			_classCallCheck(this, RevealOnScroll);
 
 			this.itemsToReveal = els;
-			this.hideInitially();
 			this.offsetPercentage = offset;
+			this.hideInitially();
 			this.createWaypoints();
 		}
 
