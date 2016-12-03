@@ -1,5 +1,4 @@
 .site-header {
-<<<<<<< HEAD
 	padding: 10px 0;
 	position: absolute;
 	width: 100%;
@@ -134,7 +133,7 @@
 			transform: scale(1);
 		}
 	}
-=======
+
   padding: 10px 0;
   position: absolute;
   width: 100%;
@@ -269,5 +268,4 @@
       transform: scale(1);
     }
   }
->>>>>>> sticky-header
 }

@@ -1,5 +1,4 @@
 .primary-nav {
-<<<<<<< HEAD
 	padding-top: 10px;
 	
 	@mixin atMedium {
@@ -55,7 +54,7 @@
 			}
 		}
 	}
-=======
+
   padding-top: 10px;
 
   @mixin atMedium {
@@ -111,5 +110,4 @@
       }
     }
   }
->>>>>>> sticky-header
 }

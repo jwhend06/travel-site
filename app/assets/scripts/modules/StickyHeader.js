@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import waypoints from '../../../../node_modules/waypoints/lib/noframework.waypoints';
-<<<<<<< HEAD
 
 class StickyHeader {
 	constructor() {
@@ -55,10 +54,10 @@ class StickyHeader {
 			});
 		});
 	}
-=======
+
 import smoothScroll from 'jquery-smooth-scroll';
 
-class StickyHeader {
+class StickyHeader { 
   constructor() {
     this.siteHeader = $(".site-header");
     this.headerTriggerElement = $(".large-hero__title");
@@ -116,7 +115,6 @@ class StickyHeader {
       });
     });
   }
->>>>>>> sticky-header
 }
 
 export default StickyHeader;
